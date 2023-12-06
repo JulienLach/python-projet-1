@@ -71,9 +71,9 @@ print(a ,b ,c)
 
 print("-- algo Calcul du carré  --")
 
-Valeur = input("Entez la valeur : ")
+Valeur = int(input("Entez la valeur : "))
 
-Valeur = int(Valeur)
+# Valeur = int(Valeur)
 
 Carré_de_la_valeur = Valeur * Valeur
 
