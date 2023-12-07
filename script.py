@@ -97,3 +97,7 @@ Prix_TTC = (prix_article_hors_taxes * TVA_article + prix_article_hors_taxes) * q
 
 print(f"Prix TTC :", Prix_TTC,"€")
 
+
+x = 2
+if x == 2 :
+    print("testok")
