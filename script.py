@@ -89,10 +89,11 @@ prix_article_hors_taxes = input("Prix hors taxes de l'article : ")
 quantité_article = input("Nombre d'articles : ")
 TVA_article = input("TVA : ")
 
-prix_article_hors_taxes = int(prix_article_hors_taxes)
+prix_article_hors_taxes = float(prix_article_hors_taxes)
 quantité_article = int(quantité_article)
 TVA_article = float(TVA_article)/100
 
 Prix_TTC = (prix_article_hors_taxes * TVA_article + prix_article_hors_taxes) * quantité_article
 
 print(f"Prix TTC :", Prix_TTC,"€")
+
