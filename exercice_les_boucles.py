@@ -1,30 +1,31 @@
 # EXERCICE 1
 
 # while True:
-#     number = int(input("Donnez un chiffre entre 1 & 3 : "))
+#      number = int(input("Donnez un chiffre entre 1 & 3 : "))
 
-#     if 1 <= number <=3:
-#         print("Vous avez saisi un chiffre valide :", number)
-#         break
-#     else:
-#         print("Le chiffre doit être entre 1 et 3. Veuillez réessayer.")
-
+#      if 1 <= number <=3:
+#          print("Vous avez saisi un chiffre valide :", number)
+#          break
+#      else:
+#          print("Le chiffre doit être entre 1 et 3. Veuillez réessayer.")
 
 
 # EXERCICE 2
 
 # while True:
-#      number = int(input("Donnez un nombre compris entre 10 et 20 : "))
+#     number = int(input("Donnez un nombre compris entre 10 et 20 : "))
 
-#      if 10 <= number <= 20:
-#          print("Le nombre saisi est valide")
-#          break
+#     if 10 <= number <= 20:
+#         print("Le nombre saisi est valide")
+#         break
 
-#      elif number < 10:
-#          print("Plus grand !")
+#     elif number < 10:
+#         print("Plus grand !")
 
-#      elif number > 20:
-#          print("Plus petit !")
+#     elif number > 20:
+#         print("Plus petit !")
+
+
 
 
 
@@ -44,7 +45,9 @@
 
 # for number in range(number + 1, number + 11):
 #     print (number)
-#     number + 1
+    # number + 1 le for in  incrémente dans le range , ce que ne fait pas le while
+
+
 
 
 
@@ -52,5 +55,11 @@
 
 languages =  ["Python", "Javascript", "Java", "PHP", "C++", "Cobol"]
 
-for index in range(0,5):
-    print (languages[index])
+# for language in languages:
+#     print (language)
+
+index = 0
+
+while index < len(languages):
+    print(languages[index])
+    index = index + 1
